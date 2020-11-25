@@ -1,13 +1,9 @@
-let camelCase = 12;
+var namaBuah = ['Apel', 'Nanas', 'Semangka'];
 
-console.log(typeof camelCase);
 
-camelCase = 'type data';
+namaBuah.forEach(function (item, index, array) {
+	console.log(item);
+})
 
-console.log(typeof camelCase);
 
-camelCase = true;
-
-console.log(typeof camelCase)
-
-//referensi lengkap dapat dilihat pada halaman https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
+//referensi lengkap dapat dilihat pada halaman https://developer.mozilla.org/id/docs/Web/JavaScript/Reference/Global_Objects/Array
